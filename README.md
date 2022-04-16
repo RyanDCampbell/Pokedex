@@ -1,5 +1,5 @@
 # Pokedex
- A Gen 1 Pokedex
+ A Gen 1 Pokedex written in SQL and Java.
 
 To run:
 
