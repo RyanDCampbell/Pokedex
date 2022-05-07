@@ -51,7 +51,7 @@ The file size of the database file is 172KB. The database consists of a total of
 |Type 	    |       18 	|   1   |
 |TypeAdvantages |      792 	|   4   |
  
-## A list of the queries implemented in Part 2 (Commands are highlighted in yellow) 
+## A list of the queries implemented in Part 2
 
 1.	all pokemon types - Prints all Pokemon, along with their types 
 2.	all fire type pokemon - Prints all fire type Pokemon. (Fire can be replaced with any pokemon type) 
@@ -66,7 +66,7 @@ each trainers strongest pokemon
 9.	Prints each pokemon trainer and all the pokemon in their party 
 10.	- Prints the strongest Pokemon of each trainer, based on highest attack power (Uses GROUP BY, and ORDER BY) 
  
-## Requesting Contents of any Table (Commands are highlighted in yellow) 
+## Requesting Contents of any Table
 
 1.	all pokemon - Prints the contents of the Pokemon table 
 2.	all moves - Prints the contents of the Move table 
