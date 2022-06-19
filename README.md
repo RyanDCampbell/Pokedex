@@ -11,7 +11,7 @@ To run:
 
 # Summary of the data:
 
-Pokemon has always been close to my heart, as a child I have spend countless hundreds of hours playing various Pokemon games. Naturally, when the opportunity to design a database for this project was presented to me, building a Pokedex was a no-brainer.
+Pokemon has always been close to my heart, as a child I have spend countless hours playing various Pokemon games. Naturally, when the opportunity to design a database for this project was presented to me, building a Pokedex was a no-brainer.
 
 1) Why was it chosen? 
 I gathered the data from several sources, initially I planned to only use the data provided in CSV format from “veekun”’s github pokedex project https://github.com/veekun/pokedex. Veekun’s pokedex project data powers a large portion of the Pokemon databases available on the web. When I started working with building the database, I soon realized how difficult it was to sift through all the various data files. I opted to supplement my data source by also using pokemondb.net. PokemonDB made processing information such as the numerous type advantages much easier, as it was presented in a more legible format. 
@@ -27,7 +27,7 @@ The file size of the database file is 172KB. The database consists of a total of
 
 1) Why was it broken down into those tables? 
  
-The data model was broken down into their tables by following the process of normalization described in class. Through the normalization process, the pokemonStats and moveStats attribute were separated into their own tables, but later remerged, as they shared the same primary key. The relationships: noEffect, normal, superEffective and notVeryEffective requires some explanation, which I will discuss in the proceeding section. 
+The data model was broken down into their tables by following the process of normalization. Through the normalization process, the pokemonStats and moveStats attribute were separated into their own tables, but later remerged, as they shared the same primary key. The relationships: noEffect, normal, superEffective and notVeryEffective requires some explanation, which I will discuss in the proceeding section. 
  
 2)	Difficulties deciding how to setup the data model 
  
